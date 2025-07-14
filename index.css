@@ -97,6 +97,9 @@ header .banner .banner-content h2 {
 header .banner .banner-content p {
     color: white;
     font: 300px;
+
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 header .banner .banner-content .explore-button {
@@ -380,7 +383,7 @@ main .contact-section .contact-links a:hover {
 */
 @media (max-width: 1530px) {
 
-    
+
     main .our-story img {
         width: 280px;
         height: 180px;
@@ -450,6 +453,7 @@ main .contact-section .contact-links a:hover {
     header .nav-bar {
         padding: 25px 25px;
     }
+
     header .nav-bar .right-part {
         gap: 15px;
     }
@@ -491,6 +495,7 @@ main .contact-section .contact-links a:hover {
     main .our-story .our-story-content .top h3 {
         font-size: 15px;
     }
+
     main .our-story img {
         width: 130px;
         height: 110px;
@@ -502,4 +507,49 @@ main .contact-section .contact-links a:hover {
         padding-left: 20px;
         padding-right: 20px;
     }
+}
+
+@media (max-width: 400px) {
+    .wrapper-class {
+        background-image: url(Assets-Bistro/background-straight.jpg);
+        background-position: top center;
+
+    }
+
+    header .nav-bar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    header .nav-bar .right-part {
+        border: 2px solid #ffdb0d;
+        padding: 4px 14px;
+        border-radius: 25px;
+    }
+
+    header .nav-bar .left-part a {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+
+
+
+    header .banner .banner-content .banner-heading h2 {
+        font-size: 25px;
+    }
+
+    header .banner .banner-content p {
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header .banner .banner-content .explore-button {
+        font-size: 14px;
+    }
+
+
 }
