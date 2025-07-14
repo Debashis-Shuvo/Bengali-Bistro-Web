@@ -443,3 +443,20 @@ main .contact-section .contact-links a:hover {
         height: 120px;
     }
 }
+
+@media (max-width: 485px) {
+    main .our-story .our-story-content .top h3 {
+        font-size: 15px;
+    }
+    main .our-story img {
+        width: 130px;
+        height: 110px;
+    }
+}
+
+@media (max-width: 450px) {
+    main .our-story {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
