@@ -295,6 +295,12 @@ main .review-section h3 {
     color: #ffdb0d;
 }
 
+main .review-section .all-reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 main .review-section .all-reviews .review {
     display: flex;
     justify-content: center;
@@ -552,4 +558,57 @@ main .contact-section .contact-links a:hover {
     }
 
 
+
+
+    main .special-items .all-items {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main .special-items h3 {
+        font-size: 25px;
+    }
+
+    main .special-items .menu-button {
+        font: 12px;
+
+        padding: 8px 15px;
+    }
+
+    main .special-items .item-card {
+        width: 100px;
+    }
+
+    main .special-items .item-card img {
+        width: 100px;
+    }
+
+
+
+
+    main .review-section {
+        gap: 40px;
+    }
+
+    main .review-section .all-reviews {
+        gap: 40px;
+    }
+
+    main .review-section h3 {
+        font-size: 25px;
+    }
+
+    main .review-section .all-reviews .review {
+        gap: 25px;
+
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .review-section .all-reviews .review .review-text p {
+        font-size: 14px;
+    }
+
+    main .review-section .all-reviews .review img {
+        width: 80px;
+    }
 }
