@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    font-family: Winky Rough, sans-serif;
+    color: white;
+}
+
+/* 
+
+
+        Menu Section
+
+
+*/
+main .menu img {
+    width: 700px;
+    border-radius: 5px;
+}
+
+main .menu {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+
+    background-image: url(Assets-Bistro/background.jpg);
+}
+
+main .menu h2 {
+    color:#ffdb0d;
+    font-size: 60px;
+}
+
+main .menu .menu-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
