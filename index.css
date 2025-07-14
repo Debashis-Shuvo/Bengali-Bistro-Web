@@ -9,7 +9,12 @@ a {
 }
 
 body {
+    /* background-image: url(Assets-Bistro/background.jpg);
+    background-repeat: repeat-y;
+    background-size: cover; */
+
     background-color: black;
+
     font-family: Winky Rough, sans-serif;
     color: white;
 }
@@ -605,10 +610,28 @@ main .contact-section .contact-links a:hover {
     }
 
     .review-section .all-reviews .review .review-text p {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     main .review-section .all-reviews .review img {
         width: 80px;
+    }
+
+
+
+
+    main .contact-section h3 {
+        font-size: 25px;
+    }
+
+    main .contact-section .contact-links a {
+        font-size: 14px;
+
+        width: 200px;
+
+        padding-top: 7px;
+        padding-bottom: 7px;
+
+        gap: 10px;
     }
 }
