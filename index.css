@@ -570,18 +570,21 @@ main .contact-section .contact-links a:hover {
     }
 
     main .special-items h3 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     main .special-items .menu-button {
         font: 12px;
 
-        padding: 8px 15px;
+        padding: 5px 8px;
     }
 
     main .special-items .item-card {
         width: 100px;
-        height: 150px;
+    }
+
+    main .special-items .all-items .item-container {
+        padding: 8px;
     }
 
     main .special-items .item-card img {
@@ -592,6 +595,7 @@ main .contact-section .contact-links a:hover {
     main .special-items .item-card h5 {
         font-size: 12px;
     }
+
 
 
 
