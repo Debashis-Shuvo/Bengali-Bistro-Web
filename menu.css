@@ -49,3 +49,21 @@ main .menu .menu-images {
     align-items: center;
     gap: 20px;
 }
+
+@media (max-width: 1460px) {
+    main .menu .menu-images {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 750px) {
+    main .menu .menu-images img {
+        width: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    main .menu .menu-images img {
+        width: 350px;
+    }
+}
