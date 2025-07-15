@@ -455,8 +455,8 @@ main .contact-section .contact-links a:hover {
         padding-left: 14px;
     }
     main .our-story .img-container img {
-        width: 130px;
-        height: 110px;
+        width: 140px;
+        height: 120px;
     }
     main .our-story .our-story-content .top h3 {
         font-size: 15px;
@@ -483,7 +483,7 @@ main .contact-section .contact-links a:hover {
     }
 
     main .special-items .item-card {
-        width: 100px;
+        width: 130px;
     }
 
     main .special-items .all-items .item-container {
@@ -491,7 +491,7 @@ main .contact-section .contact-links a:hover {
     }
 
     main .special-items .item-card img {
-        width: 100px;
+        width: 130px;
         
     }
 
