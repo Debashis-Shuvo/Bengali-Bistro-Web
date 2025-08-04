@@ -24,7 +24,9 @@ body {
     background-size: cover;
     /* background-position: center; */
     background-repeat: no-repeat;
+    
     height: 100vh;
+    min-height: 685px;
 
     display: flex;
     flex-direction: column;
@@ -134,6 +136,7 @@ main .our-story {
     gap: 100px;
 
     height: 100vh;
+    min-height: 685px;
 
     padding-left: 80px;
     padding-right: 80px;
@@ -212,6 +215,8 @@ main .special-items {
     gap: 30px;
 
     height: 100vh;
+    min-height: 685px;
+
     background-image: url(Assets-Bistro/background.jpg);
 }
 
@@ -287,6 +292,7 @@ main .review-section {
     gap: 80px;
 
     height: 100vh;
+    min-height: 685px;
 
     background-image: url(Assets-Bistro/background.jpg);
 
@@ -537,9 +543,11 @@ main .contact-section .contact-links a:hover {
     main .special-items h3 {
         font-size: 30px;
     }
+
     main .special-items .menu-button {
         padding: 7px 18px;
     }
+
     main .special-items .all-items .item-container {
         padding: 10px;
     }
@@ -634,37 +642,41 @@ main .contact-section .contact-links a:hover {
     }
 
     main .our-story .img-container img {
-        width: 140px;
-        height: 120px;
+        width: 110px;
+        height: 100px;
     }
 
     main .our-story .our-story-content .top h3 {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     main .our-story .our-story-content p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
 
 
+    main .special-items {
+        gap: 16px;
+    }
 
     main .special-items .all-items {
         grid-template-columns: 1fr 1fr;
+        gap: 5px;
     }
 
     main .special-items h3 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     main .special-items .menu-button {
-        font: 12px;
+        font-size: 10px;
 
         padding: 5px 8px;
     }
 
     main .special-items .item-card {
-        width: 130px;
+        width: 110px;
     }
 
     main .special-items .all-items .item-container {
@@ -672,7 +684,7 @@ main .contact-section .contact-links a:hover {
     }
 
     main .special-items .item-card img {
-        width: 130px;
+        width: 110px;
 
     }
 
@@ -680,18 +692,22 @@ main .contact-section .contact-links a:hover {
         font-size: 12px;
     }
 
+    main .special-items .item-card P {
+        font-size: 10px;
+    }
+
     /* REVIEW SECTION */
 
     main .review-section {
-        gap: 40px;
+        gap: 25px;
     }
 
     main .review-section .all-reviews {
-        gap: 40px;
+        gap: 25px;
     }
 
     main .review-section h3 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     main .review-section .all-reviews .review {
